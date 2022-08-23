@@ -34,6 +34,11 @@ button{
     width: 100vw;
 }
 
+.app__container{
+    display: flex;
+    height: calc(100vh - 55px);
+}
+
 
 /* STYLES */
 .header{
@@ -86,4 +91,22 @@ button{
 
 .dd-toggle__text{
 
+}
+
+/* ----------------- */
+.siderbar{
+    background-color: #10171A;
+    width: 75px;
+}
+
+/* ----------------- */
+.panel{
+    background-color: #2B363C;
+    width: 350px;
+}
+
+/* ----------------- */
+.main{
+    background-color: #EDF1F3;
+    flex: 1;
 }
