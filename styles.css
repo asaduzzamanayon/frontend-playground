@@ -139,12 +139,7 @@ button{
     animation: fade-in-from-left 0.5s;
 }
 
-.menu__button:hover{
-    background-color: #2B363B;
-    color: #fff;
-    cursor: pointer;
-}
-.menu__button:focus{
+.menu__button:hover, .menu__button:focus{
     background-color: #2B363B;
     color: #fff;
     cursor: pointer;
@@ -271,4 +266,50 @@ button{
 .main{
     background-color: #EDF1F3;
     flex: 1;
+}
+
+.info-bar{
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #D6DDE1;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.breadcurmbs{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.breadcrumbs__link{
+    color: #a6adb1;
+    text-decoration: none;
+}
+
+.breadcrumbs__icon{
+    margin: 0 13px;
+    color: #a6adb1;
+}
+
+.breadcrumbs__name{
+    font-weight: 500;
+    color: #2e3335;
+}
+
+.button{
+    background-color: #375bb6;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 500px;
+    transition: all 0.4s;
+}
+
+.button:hover, .button:focus{
+    color: #26438d;
 }
